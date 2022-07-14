@@ -1,0 +1,173 @@
+body{
+    /* background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),url('/My\ Practice/Practice\ 1/images/background.jpg'); */
+    background-image: url('../images/background.jpg');
+    background-color: rgba(0, 0, 0, 0.412);
+    background-blend-mode: multiply;
+}
+
+.headerButtons{
+    float:right
+}
+
+.Button{
+    padding: 8px;
+    font-weight: bolder;
+}
+
+
+.Button.AboutUs,
+.Button.ContactUs,
+.Button.HomePage{
+    padding: 8px;
+    font-weight: bold;
+    border-color:transparent;
+    color: white;
+    background-color: transparent;
+    opacity: 1;
+}
+
+.Button.AboutUs:hover,
+.Button.ContactUs:hover,
+.Button.HomePage:hover{
+    border-color: black;
+    color: #000;
+}
+
+.Button.SignIn{
+    border-color: chocolate;
+    background-color: transparent;
+    border-radius: 5px 0px 0px 5px;
+    color: white;
+}
+
+.Button.SignIn:hover{
+    color:black;
+    /* border-color: white; */
+   
+}
+
+.Button.SignUp{
+    border-color: chocolate;
+    background-color: chocolate;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.Button.SignUp:hover{
+    color: whitesmoke;
+}
+
+/* top-left | top-right | bottom-right | bottom-left */
+@font-face {
+    font-family: font1;
+    src: url('/My\ Practice/Practice\ 1/Fake\ Identity.ttf');
+}
+
+.Title{
+    margin-left: 35%;
+    text-align: center;
+    position: absolute;
+    top: 26%;
+    font-size:100px ;
+    font-family: font1;
+    font-weight: 500;
+    color: chocolate;
+    -webkit-text-stroke: 1px rgba(65, 65, 65, 0.624);
+    text-shadow:
+    3px 3px 0 rgb(37, 37, 37),
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+
+.Subtitle{
+    margin-left: 20%;
+    text-align: center;
+    position: absolute;
+    color:white;
+    font-weight: 2500;
+    font-style: italic;
+    top: 55%;
+    z-index: 1;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(197, 196, 196, 0.638);
+    text-shadow:
+    3px 3px 0 rgb(37, 37, 37),
+}
+
+.Login{
+    border:2px solid rgb(179, 98, 40);
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+    margin-left: 35%;
+    padding-bottom: 25%;
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+    /* border-radius: 20px 20px 20px 20px; */
+    box-shadow: 5px 5px 5px rgba(36, 36, 36, 0.467);
+    display: none;
+}
+
+#form_login{
+   position: absolute;
+   top: 30%;
+   margin-left: 15%;
+}
+
+#email_input,#password_input{
+    padding: 15px;
+    width: 250px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgb(220, 218, 218);
+    border: none;
+    
+}
+
+#email_input:hover,
+#password_input:hover{
+    background-color: aliceblue;
+}
+
+::placeholder{
+    color: chocolate;
+}
+
+#submit{
+    padding: 10px;
+    width: 285px;
+    border-radius: 8px 8px 8px 8px;
+    margin-left: 0%;
+    background-color: chocolate;
+}
+
+#submit:hover{
+    background-color: rgb(133, 59, 7);
+    color: white;
+}
+
+img{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: -10%;
+    margin-left: 33%;
+}
+
+.fa.fa-envelope{
+    color: chocolate;
+    position: absolute;
+    margin-left: -40px;
+}
+.fa.fa-lock{
+    color: chocolate;
+    position: absolute;
+    margin-left: -40px;
+    
+}
+
+span{
+    color: red;
+}
+
